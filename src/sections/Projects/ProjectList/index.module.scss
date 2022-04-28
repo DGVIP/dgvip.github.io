@@ -1,0 +1,16 @@
+$max-item-width: 350px;
+
+.projectList {
+   gap: 32px;
+   display: grid;
+   justify-content: center;
+   grid-template-columns: minmax(auto, $max-item-width);
+
+   @media (min-width: 540px) {
+      grid-template-columns: repeat(2, minmax(auto, $max-item-width));
+   }
+
+   @media (min-width: 960px) {
+      grid-template-columns: repeat(3, minmax(auto, $max-item-width));
+   }
+}

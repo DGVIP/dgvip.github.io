@@ -1,0 +1,17 @@
+.section {
+   gap: 32px;
+   display: flex;
+   flex-direction: column;
+}
+
+.content {
+   gap: 32px;
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+   .content {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}

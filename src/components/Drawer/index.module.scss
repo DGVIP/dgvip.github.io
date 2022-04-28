@@ -1,0 +1,31 @@
+.backdrop {
+   inset: 0;
+   z-index: 1;
+   position: fixed;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.drawer {
+   display: flex;
+   flex-direction: column;
+   inset: 0 0 auto;
+   position: fixed;
+   color: white;
+   background-color: #303030;
+   text-align: center;
+}
+
+.link {
+   color: white;
+   padding: 16px;
+}
+
+.closeButton {
+   top: 0;
+   right: 0;
+   padding: 16px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   border: none;
+   cursor: pointer;
+}

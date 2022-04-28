@@ -1,0 +1,22 @@
+{
+   "env": {
+      "browser": true,
+      "es2021": true
+   },
+   "extends": ["standard", "plugin:react/recommended", "plugin:react/jsx-runtime", "prettier"],
+   "plugins": ["react", "@typescript-eslint"],
+   "parser": "@typescript-eslint/parser",
+   "settings": {
+      "react": {
+         "version": "detect"
+      }
+   },
+   "parserOptions": {
+      "ecmaFeatures": {
+         "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+   },
+   "rules": {}
+}
